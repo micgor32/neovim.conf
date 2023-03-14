@@ -49,6 +49,7 @@ return packer.startup(function(use)
 	use("mfussenegger/nvim-dap")
 	use("tpope/vim-fugitive")
 	--use("romgrk/barbar.nvim")
+	use("wakatime/vim-wakatime")
 	use({
 		"ellisonleao/glow.nvim",
 		config = function()
