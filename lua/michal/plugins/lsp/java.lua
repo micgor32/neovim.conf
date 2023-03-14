@@ -52,8 +52,8 @@ local config = {
 		java = {
 			format = {
 				settings = {
-					-- url = "/.local/share/eclipse/eclipse-java-google-style.xml",
-					-- profile = "GoogleStyle",
+					url = "/.local/share/eclipse/eclipse-java-google-style.xml",
+					profile = "GoogleStyle",
 				},
 			},
 			signatureHelp = { enabled = true },
