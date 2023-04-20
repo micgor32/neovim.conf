@@ -99,7 +99,7 @@ local config = {
 					},
 					{
 						name = "JavaSE-17",
-						path = "/Library/Java/JavaVirtualMachines/jdk-17.0.6.jdk/Contents/Home",
+						path = "/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home",
 					},
 				},
 			},

@@ -82,7 +82,12 @@ return packer.startup(function(use)
 	})
 	use("windwp/nvim-autopairs")
 	use({ "windwp/nvim-ts-autotag", after = "nvim-treesitter" })
-	use("lewis6991/gitsigns.nvim")
+	-- use({
+	-- 	"lewis6991/gitsigns.nvim",
+	-- 	config = function()
+	-- 		require("gitsigns").setup()
+	-- 	end,
+	-- })
 	use("vim-test/vim-test")
 
 	if packer_bootstrap then
