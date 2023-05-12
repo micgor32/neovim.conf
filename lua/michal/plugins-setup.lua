@@ -34,7 +34,7 @@ return packer.startup(function(use)
 			require("todo-comments").setup({})
 		end,
 	})
-	--use("christoomey/vim-tmux-navigator")
+	use("christoomey/vim-tmux-navigator")
 	use("tpope/vim-commentary")
 	use("tpope/vim-surround") -- learn this shit
 	use("nvim-tree/nvim-tree.lua")
